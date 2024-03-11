@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cardbg {
+  background-image: url(/education-pattern-background-doodle-style_53876-115365.avif);
+}
+
+.scroll-container {
+  overflow-x: auto;
+  overflow-y: visible;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch; /* For smooth scrolling on iOS */
+}
